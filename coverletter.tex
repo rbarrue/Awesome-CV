@@ -1,0 +1,138 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[circle,noedge,left]{./examples/profile}
+\name{Ricardo}{Barrué}
+\position{PhD researcher at \href{https://www.lip.pt/?lang=en}{Laboratório de Instrumentação e Física Experimental de Partículas (LIP)} and \href{https://tecnico.ulisboa.pt/en/}{Instituto Superior Técnico (IST)}}
+\address{LIP: Av. Prof. Gama Pinto, n.2, 1649-003 Lisboa, Portugal; IST: Av. Rovisco Pais, 1, 1049-001 Lisboa, Portugal}
+
+\email{ricardo.barrue@cern.ch}
+%\dateofbirth{January 1st, 1970}
+% \homepage{www.posquit0.com}
+\github{rbarrue}
+\linkedin{ricardo-barrue}
+\gitlab{rcoelhob}
+\orcid{0000-0001-8985-5379}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \hackerrank{hackerrank-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+% \quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Kyle Cranmer}
+  {University of Wisconsin-Madison, Data Science Institute \\ 447 Lorch St. \\ Madison, WI 53706}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Postdoctoral Research Associate}
+% How the letter is opened
+\letteropening{Dear Mr. Cranmer,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Ricardo Barrué ~~~·~~~ Cover Letter}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+I am writing to express my interest in applying for the postdoctoral position in the Cranmer group. I am finishing my PhD at the University of Lisbon with the thesis "Study of the Spin/CP properties of the Higgs coupling to W bosons with ATLAS at the LHC" (exp. finish date Dec. 2024). My main research topic has been the interactions of the Higgs boson with the W boson measured in associated WH production. For this, I have participated in two ATLAS analyses of this process. My research has further focused on the search for BSM sources of CP violation in this interaction and production channel. 
+
+In this vein, I am now pushing for the first ATLAS (possibly LHC) search for CP violation in WH production using histograms of angular observables, an approach studied extensively in the phenomenological literature. A significant problem is that these angular observables require explicit neutrino reconstruction, which has significant systematic uncertainties. 
+
+During my research, I explored a neural simulation-based inference method defined in \href{http://dx.doi.org/10.1073/pnas.1915980117}{arXiv:1805.12244}, called SALLY, which estimates a detector-level optimal observable to check if optimal performance could be obtained without explicit neutrino reconstruction. This exploration led to a publication in JHEP (\href{http://dx.doi.org/10.1007/JHEP04(2024)014}{JHEP04(2024)014} - of which I was the leading analyser), where we showed that a SALLY observable has a performance competitive with the traditional approach without requiring neutrino reconstruction. I am now supervising a master student on the extension of that work, with a method that reconstructs the likelihood ratio using parametrized neural networks - ALICE(S), which we expect to have superior performance to SALLY.
+
+With my experience in physics analysis and simulation-based inference methods and my competence in collaborative software development, I am confident that I would be an excellent fit for this position. I am eager to apply simulation-based inference techniques to future ATLAS analyses, particularly for constraints on EFT coefficients and the trilinear Higgs coupling. Additionally, I am excited about the prospect of including simulation-based inference techniques in the pipeline of the Analysis Grand Challenge, developing new tooling wherever necessary to allow the easy use of these methods in HL-LHC analyses. I am looking forward to the opportunity to discuss further how my research experience and skills align with the requirements of the postdoctoral position. Thank you for your time and consideration.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
