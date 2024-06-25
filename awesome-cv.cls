@@ -89,7 +89,7 @@
   pdfauthor={},
   pdfsubject={},
   pdfkeywords={},
-  urlcolor=awesome-red
+  urlcolor=awesome-skyblue
 }
 % Solves issues Warning: File `cv.out' has changed
 \RequirePackage{bookmark}
