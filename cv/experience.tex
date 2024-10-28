@@ -4,14 +4,14 @@
 
     \cventry
     {LIP}
-    {PhD researcher}
+    {Researcher}
     {}
     {Sep. 2017 - PRESENT}
     {
-        \textbf{Simulation-based inference methods for searches of new physics in the Higgs sector}\vspace{12pt}
+        \textbf{Simulation-based inference methods for searches of new physics in Higgs boson interactions}\vspace{12pt}
         \begin{cvitems}      
-            \item {spearheading the group's exploration of simulation-based-inference methods (based on neural networks), proposing and supervising a study of likelihood ratio estimators targetting BSM components in the HWW interaction in leptonic WH production.}
-            \item {explored a method to estimate sufficient statistics of the likelihood, applied to the search for CP-violating BSM components in the HWW interaction in leptonic WH production, showing that such a method has competitive sensitivity to methods explored in previous literature. Published on \href{https://doi.org/10.1007/JHEP04(2024)014}{J. High Energ. Phys. 2024, 14 (2024)} (main author).}
+            \item {spearheading the group's exploration of simulation-based-inference (likelihood-free inference) methods, proposing and supervising a study of a high-dimensional method to estimate the likelihood ratio, to be used directly in the statistical analysis.}
+            \item {explored a high-dimensional method to estimate sufficient statistics of the likelihood, showing that it has competitive sensitivity to that from standard methods, based on a small set of physics-informed variables. Published on \href{https://doi.org/10.1007/JHEP04(2024)014}{J. High Energ. Phys. 2024, 14 (2024)} (main author).}
         \end{cvitems}
     }
 
@@ -21,17 +21,17 @@
     {}
     {Oct. 2018 - PRESENT}
     {
-        \textbf{Higgs boson measurements}\vspace{14pt}
+        \textbf{Data analysis in Higgs boson measurements}\vspace{14pt}
         \begin{cvitems}
-            \item {leading the first ATLAS search for BSM CP-violating components in HWW vertex in WH production using angular observables: defined the most sensitive observable, performed detailed reconstruction and categorization studies, currently developing the fit model.}
-            \item {contributed to the combined measurement of Higgs boson decays to bottom and charm quarks in VH production: calculated priors for shape modelling uncertainties of the W+jets background in the high-momentum regime using high-dimensional reweighting (based on neural networks) to mitigate statistical fluctuations, defined the correlation scheme for various shape and acceptance uncertainties of the W+jets and Z+jets backgrounds. Pre-print in \href{https://arxiv.org/abs/2410.19611}{arXiv:2410.19611} (submitted to JHEP).}
-            \item {contributed to the first ATLAS search of Higgs boson decays to bottom quarks in VH production in the high-momentum regime, defining the optimal Higgs boson identification strategy and proposed an event selection criteria that led to a 4\% improvement in analysis significance. Published in \href{https://doi.org/10.1016/j.physletb.2021.136204}{Physics Letters B 816 (2021) 136204}.}
+            \item {leading a novel search for new physics in Higgs boson interactions using an angular observable. Contributed to the full analysis pipeline, from the definition of relevant observable and the study of its modelling, to developing the statistical model.}
+            \item {contributed to a measurement of Higgs boson decays: used a high-dimensional reweighting method to reduce spurious (modelling) uncertainties due to statistical fluctuations in simulated samples with small number of events; contributed to the development of the statistical model. Pre-print in \href{https://arxiv.org/abs/2410.19611}{arXiv:2410.19611} (submitted to JHEP).}
+            \item {contributed to a novel search of very high-energy Higgs boson decays (rare process): defined the optimal signal identification strategy and proposed an event selection criteria that led to a 4\% improvement in analysis significance. Published in \href{https://doi.org/10.1016/j.physletb.2021.136204}{Physics Letters B 816 (2021) 136204}.}
         \end{cvitems}\vspace{19pt}
         %
-        \textbf{Jet reconstruction at the High-Level Trigger}\vspace{14pt}
+        \textbf{Real-time event selection with the ATLAS trigger system}\vspace{14pt}
         \begin{cvitems}
-            \item {validated the performance of the jet trigger during the first data-taking year of LHC Run 3 (2022). Published in \href{https://doi.org/10.1088/1748-0221/19/06/P06029}{JINST 19 P06029}.}
-            \item {contributed to the definition of the optimal track, vertex and Particle Flow reconstruction parameters for LHC Run 3.}
+            \item {validated a subset of the algorithms of the software-based ATLAS trigger system with data from the first year of LHC Run 3 (2022). Published in \href{https://doi.org/10.1088/1748-0221/19/06/P06029}{JINST 19 P06029}.}
+            \item {contributed to the definition of the optimal reconstruction parameters for a subset of the algorithms on the software-based ATLAS real-time event selection (trigger) system (which processes ~100k events/second), balancing computing time and selection efficiency, keeping the decision latency below 1s/event.}
         \end{cvitems}
     }
 
@@ -39,18 +39,12 @@
     {Research Internship}
     {}
     {Sep. 2016 - Nov. 2016}
-    {Developed Python and BASH scripts to parse results of tests of CPU/GPU implementations of jet clustering algorithms for the ATLAS trigger system: showing that a GPU implementation has superior performance to the CPU one and that a system with a mid-priced GPU (Quadro K2200) and a large amount of RAM (24GB) was the most cost-effective implementation.}
+    {Developed Python and BASH scripts for parsing results of tests of novel reconstruction algorithms for the ATLAS trigger system, helping to determine the most time- and cost-effective implementation.}
 
     \cventry{LIP - CMS group}
     {Research Internship}
     {}
     {Jul. 2016}
-    {Explored the application of Boosted Decision Trees in the search for Higgs boson pair production, showing that performing Principal Component Analysis on a set of physics-motivated variables and using the transformed variable set as input variable led to a large improvement in performance (area under ROC curve $97.7\% \to 99.9\%$).}
-
-    \cventry{Institute for Plasmas and Nuclear Fusion}
-    {Research Internship - Control Systems Engineering}
-    {}
-    {Jul. 2015}
-    {Implemented the control system for a remote-controlled radiation physics experiment using DSPIC microcontrollers.}
+    {Explored the application of Boosted Decision Trees for signal-background separation in the search for Higgs boson pair production (very rare process). Showed that using Principal Component Analysis (dimensionality reduction method) on a set of physics-informed input variables and retraining the BDT using the transformed variable set as input led to an improvement in performance (area under ROC curve $97.7\% \to 99.9\%$).}
 
 \end{cventries}
