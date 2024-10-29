@@ -84,18 +84,18 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-  {Kyle Cranmer}
-  {University of Wisconsin-Madison, Data Science Institute \\ 447 Lorch St. \\ Madison, WI 53706}
+  {Marisa Eisenberg, Tom Schwarz}
+  {University of Michigan/MICOM \\ 500 S. State Street \\ Ann Arbor, MI 48109} 
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Job Application for Postdoctoral Research Associate}
+\lettertitle{Job Application for Postdoctoral Research Fellow}
 % How the letter is opened
-\letteropening{Dear Mr. Cranmer,}
+\letteropening{Dear Profs. Eisenberg and Schwarz,}
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
+\letterenclosure[Attached]{Curriculum Vitae, Reference Statement}
 
 
 %-------------------------------------------------------------------------------
@@ -120,13 +120,13 @@
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-I am writing to express my interest in applying for the postdoctoral position in the Cranmer group. I am finishing my PhD at the University of Lisbon with the thesis "Study of the Spin/CP properties of the Higgs coupling to W bosons with ATLAS at the LHC" (exp. finish date Dec. 2024). My main research topic has been the interactions of the Higgs boson with the W boson measured in associated WH production. For this, I have participated in two ATLAS analyses of this process. My research has further focused on the search for BSM sources of CP violation in this interaction and production channel. 
+I am writing to express my interest in applying for the postdoctoral position at the Michigan Public Health Integrated Center for Outbreak Analytics and Modeling (MICOM). I am finishing my PhD in experimental high-energy physics at the University of Lisbon (exp. finish data Feb. 2025), working with the ATLAS Collaboration at CERN. I am very excited for the opportunity to apply my skillset to disease outbreak modelling and its connection to the decision-making process, in particular after the COVID-19 pandemic, which brought the importance of this field to a new light.
 
-In this vein, I am now pushing for the first ATLAS (possibly LHC) search for CP violation in WH production using histograms of angular observables, an approach studied extensively in the phenomenological literature. A significant problem is that these angular observables require explicit neutrino reconstruction, which has significant systematic uncertainties. 
+My main research topic has been the measurement of the interaction of the Higgs boson with the W boson. For this, I have participated in several ATLAS analyses, working in all steps of the analysis pipeline, from defining optimal (rare) signal identification and event selection criteria, quantifying the impact of different sources of uncertainty and developing the statistical model. This resulted in two publications: \href{https://doi.org/10.1016/j.physletb.2021.136204}{Physics Letters B 816 (2021) 136204} and \href{https://arxiv.org/abs/2410.19611}{arXiv:2410.19611}. My research has further focused on the search for new physics in this interaction, related to the observed matter-antimatter asymmetry in the Universe. For this, I proposed and am now leading a novel ATLAS search, working on all steps of the analysis pipeline as well as supervising a master student.
 
-During my research, I explored a neural simulation-based inference method defined in \href{http://dx.doi.org/10.1073/pnas.1915980117}{arXiv:1805.12244}, called SALLY, which estimates a detector-level optimal observable to check if optimal performance could be obtained without explicit neutrino reconstruction. This exploration led to a publication in JHEP (\href{http://dx.doi.org/10.1007/JHEP04(2024)014}{JHEP04(2024)014} - of which I was the leading analyser), where we showed that a SALLY observable has a performance competitive with the traditional approach without requiring neutrino reconstruction. I am now supervising a master student on the extension of that work, with a method that reconstructs the likelihood ratio using parametrized neural networks - ALICE(S), which we expect to have superior performance to SALLY.
+These analyses use likelihood-based statistical inference procedures, but estimate the likelihoods from histograms of a small number of variables, which leads to suboptimal precision. To circumvent this limitation, I explored the use of a machine learning simulation-based inference (also called likelihood-free inference) method that estimates a sufficient statistic of the likelihood in a per-event basis with a large number of input variables. This work resulted in a publication - \href{http://dx.doi.org/10.1007/JHEP04(2024)014}{JHEP04(2024)014} (of which I was the main author) showing that such a method has a performance competitive with the traditional approach, while being robust to background processes (noise) and unobservable variables. I am now supervising a master student on the extension of that work, exploring a simulation-based inference method to estimate likelihood ratios using parametrized neural networks.
 
-With my experience in physics analysis and simulation-based inference methods and my competence in collaborative software development, I am confident that I would be an excellent fit for this position. I am eager to apply simulation-based inference techniques to future ATLAS analyses, particularly for constraints on EFT coefficients and the trilinear Higgs coupling. Additionally, I am excited about the prospect of including simulation-based inference techniques in the pipeline of the Analysis Grand Challenge, developing new tooling wherever necessary to allow the easy use of these methods in HL-LHC analyses. I am looking forward to the opportunity to discuss further how my research experience and skills align with the requirements of the postdoctoral position. Thank you for your time and consideration.
+With my experience in data analysis, machine learning and collaborative work practices, I am confident that I would be an excellent fit for this position. I am eager to explore the use likelihood-free inference techniques in disease modelling, combining the knowledge in mechanistic models with machine learning techniques, all while allowing proper uncertainty quantification, key for the use of models in the decision-making process. I am looking forward to the opportunity to discuss further how my research experience and skills align with the requirements of the postdoctoral position. Thank you for your time and consideration.
 
 \end{cvletter}
 
