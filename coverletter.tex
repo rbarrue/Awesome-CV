@@ -84,18 +84,18 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-  {Kyle Cranmer}
-  {University of Wisconsin-Madison, Data Science Institute \\ 447 Lorch St. \\ Madison, WI 53706}
+  {Michael Kagan, Ariel Schwartzman, Julia Gonski}
+  {SLAC National Accelerator Laboratory \\ 2575 Sand Hill Road \\ Menlo Park, CA 94025-7015} 
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
 \lettertitle{Job Application for Postdoctoral Research Associate}
 % How the letter is opened
-\letteropening{Dear Mr. Cranmer,}
+\letteropening{Dear Prof. Schwartzman, Dr. Kagan, Julia Gonski}
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
+\letterenclosure[Attached]{Curriculum Vitae, Research statement, Publication list}
 
 
 %-------------------------------------------------------------------------------
@@ -120,13 +120,20 @@
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-I am writing to express my interest in applying for the postdoctoral position in the Cranmer group. I am finishing my PhD at the University of Lisbon with the thesis "Study of the Spin/CP properties of the Higgs coupling to W bosons with ATLAS at the LHC" (exp. finish date Dec. 2024). My main research topic has been the interactions of the Higgs boson with the W boson measured in associated WH production. For this, I have participated in two ATLAS analyses of this process. My research has further focused on the search for BSM sources of CP violation in this interaction and production channel. 
+  As a PhD researcher at LIP/IST working with the ATLAS experiment, I have developed expertise in Higgs boson measurements. I am currently leading the first ATLAS search for CP-violating BSM components in the HWW vertex in $W(\to \ell \nu)H(\to b\bar{b})$ production, building on my previous contributions to VH measurements. These include the combined $VH(\to b\bar{b}/c\bar{c})$ measurement (recently submitted to JHEP), where I worked on high-dimensional reweighting techniques using neural networks for shape uncertainty estimation.
 
-In this vein, I am now pushing for the first ATLAS (possibly LHC) search for CP violation in WH production using histograms of angular observables, an approach studied extensively in the phenomenological literature. A significant problem is that these angular observables require explicit neutrino reconstruction, which has significant systematic uncertainties. 
-
-During my research, I explored a neural simulation-based inference method defined in \href{http://dx.doi.org/10.1073/pnas.1915980117}{arXiv:1805.12244}, called SALLY, which estimates a detector-level optimal observable to check if optimal performance could be obtained without explicit neutrino reconstruction. This exploration led to a publication in JHEP (\href{http://dx.doi.org/10.1007/JHEP04(2024)014}{JHEP04(2024)014} - of which I was the leading analyser), where we showed that a SALLY observable has a performance competitive with the traditional approach without requiring neutrino reconstruction. I am now supervising a master student on the extension of that work, with a method that reconstructs the likelihood ratio using parametrized neural networks - ALICE(S), which we expect to have superior performance to SALLY.
-
-With my experience in physics analysis and simulation-based inference methods and my competence in collaborative software development, I am confident that I would be an excellent fit for this position. I am eager to apply simulation-based inference techniques to future ATLAS analyses, particularly for constraints on EFT coefficients and the trilinear Higgs coupling. Additionally, I am excited about the prospect of including simulation-based inference techniques in the pipeline of the Analysis Grand Challenge, developing new tooling wherever necessary to allow the easy use of these methods in HL-LHC analyses. I am looking forward to the opportunity to discuss further how my research experience and skills align with the requirements of the postdoctoral position. Thank you for your time and consideration.
+  My research has also focused on using neural simulation-based inference methods to improve histogram-based analyses. As the primary author of a recent JHEP paper, I demonstrated how estimators of sufficient statistics of the likelihood can improve searches for CP violation in Higgs interactions.
+  
+  I also have substantial experience with the ATLAS trigger system, as I contributed to jet trigger performance studies for Run 3 and served as trigger online expert on-call. This hands-on experience positions me well to work on ML applications for triggers, particularly for the HL-LHC era.
+  
+  Looking ahead, I am particularly interested in three research directions that align with your group's priorities:
+  \begin{itemize}
+    \item Advancing neural simulation-based inference methods for precision Higgs measurements
+    \item Developing uncertainty quantification frameworks for ML applications across the analysis pipeline
+    \item Implementing low-latency ML solutions for the Level-1 trigger, with a particular interest on anomaly detection
+  \end{itemize}
+  
+  Despite this, I am adaptable to any research direction the group wants to explore, and I am genuinely excited about the prospect of joining SLAC's ATLAS group. I look forward to discussing how my skills, experience, and research interests connect with your mission and vision.
 
 \end{cvletter}
 
