@@ -680,6 +680,7 @@
       {}
       {\multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}} \\}
   \end{tabular*}%
+  \vspace*{15pt}
 }
 
 % Define an environment for cvsubentry
